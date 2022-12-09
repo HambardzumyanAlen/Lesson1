@@ -6,14 +6,13 @@ public class Main {
 //    static void myMethod(String fname){
 //        System.out.println(fname + "Refsnes");
 //    }
- //   public static void main(String[] args) {
+    //   public static void main(String[] args) {
 //        myMethod("Liam");
 //        myMethod("Jenny");
 //        myMethod("Anja");
 
 
-
-        public static void main(String[] args) {
+    public static void main(String[] args) {
 //            Person Valod = new Person();                   //Person.java
 //            Valod.height = 150;
 //            Valod.say("Georg");
@@ -193,12 +192,9 @@ public class Main {
 //        System.out.println(Math.abs(-4.7));
 
 
+        //System.out.println("Xndirner");
 
-
-
-            //System.out.println("Xndirner");
-
-            //Xndir 1.
+        //Xndir 1.
             /*int n = 7;
             int number[] = {1, 4, 7, -5, 3, 7, 32, 4, -7};
             int count = 0;
@@ -211,7 +207,7 @@ public class Main {
             System.out.println();*/
 
 
-            //Xndir 2
+        //Xndir 2
            /* int numbers[] = {1, 4, 7, -5, 3, 7, 32, 4, -7, 12};
             System.out.println("Task 2");
             int[] oddNumbrs = new int[numbers.length];
@@ -244,7 +240,7 @@ public class Main {
             }*/
 
 
-            //Xndir 3
+        //Xndir 3
             /*int [] firstArray = {3, 6, 0, -3, 2, 2, 13};
             int [] secondArray = {0, 56, -5, 45, 2, 2, 0, 12, 6, 13, 56};
             int minLengthOfGivenArrays = firstArray.length > secondArray.length
@@ -293,7 +289,7 @@ public class Main {
                 System.out.print(commonElements[i] + " ");
             }*/
 
-            //Xndir 4
+        //Xndir 4
             /*int[] arr = {1,2,3,4,5,7,8,9};
             int n = arr.length + 1;
             int sum = (n * (n+1))/2;
@@ -303,7 +299,7 @@ public class Main {
             System.out.println("Missing number is " + sum);*/
 
 
-            //Xndir 5
+        //Xndir 5
             /*int[] array = {1,4,7,-5,3,7,-32,4,-7,123,};
             int min = array[0];
             for (int i = 1; i < array.length; i++) {
@@ -313,7 +309,7 @@ public class Main {
             }
             System.out.println("Minimum Number is " + min);*/
 
-            //Xndir 6
+        //Xndir 6
             /*int[] numbers = {1, 4, -6, 8, 8, -6, 4, 1};
 
             int reverse = numbers.length - 1;
@@ -332,7 +328,7 @@ public class Main {
                 System.out.println("YES");
             }*/
 
-            //Xndir 7
+        //Xndir 7
                    /* int exersice_4[] = {-2, 1, 7, 9, 4, 26, 30};
                     int n = 0;
                     int hashvich = 0;
@@ -347,7 +343,7 @@ public class Main {
                         System.out.println("NO");
                     }*/
 
-            //Xndir 8
+        //Xndir 8
             /*int n = 11;
             boolean prime = true;
             for (int i = 2; i < n; i++) {
@@ -358,20 +354,83 @@ public class Main {
             }
             System.out.println(prime);*/
 
-            //Xndir 9
-            /*int[][] matrix = {{1, 2, 3, 4},
-                    {5, 6, 7, 8},
-                    {9, 0, 1, 2},
-                    {3, 4, 5, 6}};
-            for (int a = 0; a < matrix.length; a++) {
-                for (int b = 0; b < matrix.length; b++) {
-                    System.out.print(matrix[b][a] + " ");
+        //Xndir 9
+        /*int[][] arr = {{1, 2, 3, 4},
+                {5, 6, 7, 8},
+                {9, 0, 1, 2},
+                {3, 4, 5, 0}};
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = 0; j < arr.length; j++) {
+                System.out.print(" " + arr[i][j] + " ");
+            }
+            System.out.println();
+        }
+        System.out.println("__________________-");
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = 0; j < arr.length; j++) {
+                System.out.print(" " + arr[j][i] + " ");
+            }
+            System.out.println();
+        }*/
 
+
+        //Xndir 10
+        /*     int[] arr1 = {1, 2, 8, 3,-457, 4, -5, 15, -278, 39, 5, 6, 7};
+        boolean b = true;
+        while (b) {
+            b = false;
+            for (int i = 0; i < arr1.length - 1; i++) {
+                if (arr1[i] > arr1[i + 1]) {
+                    int a = arr1[i];
+                    arr1[i] = arr1[i + 1];
+                    arr1[i + 1] = a;
+                    b = true;
                 }
-                System.out.println();
-            }*/
+            }
+        }   for (int a : arr1) {
+            System.out.print(a + " ");
+        }*/
+
+        //Xndir 11
+        /*int[] numbers = {4, 2, 7, -5, 9, 6, 7, 9, -2, -5, 7};
+        int firstRepeatingNumber = 0;
+        for (int i = 0; i < numbers.length - 1; i++) {
+            for (int j = i + 1; j < numbers.length; j++) {
+                if (numbers[i] == numbers[j]) {
+                    firstRepeatingNumber = numbers[i];
+                    i = numbers.length - 1;
+                    break;
+                }
+
+            }
+        }
+        for (int i = 0; i < numbers.length; i++) {
+            if (firstRepeatingNumber == numbers[i]) {
+                System.out.print(i + " ");
+            }
+        }*/
+
+        //Xndir 12
+        /*int[] array = {2, -6, -8, 5, -4, 90, 13, -68, 0, -7};
+        int a = 0;
+        int k = 5;
+        for (int i = 0; i < array.length - 1; i++) {
+            for (int j = i + 1; j < array.length; j++) {
+                if (array[i] > array[j]) {
+                    a = array[i];
+                    array[i] = array[j];
+                    array[j] = a;
+                    //swap
+                }
+            }
+        }
+        for (int i = 0; i < array.length; i++) {
+            System.out.print(array[i] + " ");
+        }
+        System.out.println();
+        System.out.println(array[k - 1]);*/
 
 
-            //Xndir 
+
     }
 }
